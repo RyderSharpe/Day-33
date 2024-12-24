@@ -84,8 +84,8 @@ def send_email():
 if is_iss_overhead() and is_night():
     print("Look up. The ISS is above")
     send_email()
-else:
-    print("It is to bright to see the ISS or its to far away")
+# else:
+#     print("It is to bright to see the ISS or its to far away")
 
 
 
